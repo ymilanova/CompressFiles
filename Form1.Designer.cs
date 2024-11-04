@@ -46,7 +46,7 @@
             // 
             // selectFileBtn
             // 
-            this.selectFileBtn.Location = new System.Drawing.Point(638, 26);
+            this.selectFileBtn.Location = new System.Drawing.Point(515, 21);
             this.selectFileBtn.Name = "selectFileBtn";
             this.selectFileBtn.Size = new System.Drawing.Size(101, 23);
             this.selectFileBtn.TabIndex = 0;
@@ -56,14 +56,14 @@
             // 
             // showFileNameTxt
             // 
-            this.showFileNameTxt.Location = new System.Drawing.Point(92, 24);
+            this.showFileNameTxt.Location = new System.Drawing.Point(100, 37);
             this.showFileNameTxt.Name = "showFileNameTxt";
             this.showFileNameTxt.Size = new System.Drawing.Size(349, 20);
             this.showFileNameTxt.TabIndex = 1;
             // 
             // compressBtn
             // 
-            this.compressBtn.Location = new System.Drawing.Point(638, 84);
+            this.compressBtn.Location = new System.Drawing.Point(515, 63);
             this.compressBtn.Name = "compressBtn";
             this.compressBtn.Size = new System.Drawing.Size(101, 23);
             this.compressBtn.TabIndex = 2;
@@ -73,7 +73,7 @@
             // 
             // decompressBtn
             // 
-            this.decompressBtn.Location = new System.Drawing.Point(638, 55);
+            this.decompressBtn.Location = new System.Drawing.Point(515, 105);
             this.decompressBtn.Name = "decompressBtn";
             this.decompressBtn.Size = new System.Drawing.Size(101, 23);
             this.decompressBtn.TabIndex = 3;
@@ -84,14 +84,14 @@
             // savedSpacelbl
             // 
             this.savedSpacelbl.AutoSize = true;
-            this.savedSpacelbl.Location = new System.Drawing.Point(467, 31);
+            this.savedSpacelbl.Location = new System.Drawing.Point(467, 37);
             this.savedSpacelbl.Name = "savedSpacelbl";
             this.savedSpacelbl.Size = new System.Drawing.Size(0, 13);
             this.savedSpacelbl.TabIndex = 4;
             // 
             // compressedFileName
             // 
-            this.compressedFileName.Location = new System.Drawing.Point(92, 84);
+            this.compressedFileName.Location = new System.Drawing.Point(100, 91);
             this.compressedFileName.Name = "compressedFileName";
             this.compressedFileName.Size = new System.Drawing.Size(349, 20);
             this.compressedFileName.TabIndex = 5;
@@ -99,7 +99,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 26);
+            this.label1.Location = new System.Drawing.Point(30, 37);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 6;
@@ -108,7 +108,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 84);
+            this.label2.Location = new System.Drawing.Point(30, 91);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(27, 13);
             this.label2.TabIndex = 7;
@@ -126,7 +126,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 147);
+            this.ClientSize = new System.Drawing.Size(642, 151);
             this.Controls.Add(this.LostSpaceLbl);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -137,7 +137,7 @@
             this.Controls.Add(this.showFileNameTxt);
             this.Controls.Add(this.selectFileBtn);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "FileCompresser";
             this.ResumeLayout(false);
             this.PerformLayout();
 
