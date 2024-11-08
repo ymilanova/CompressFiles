@@ -50,8 +50,6 @@ namespace CompressFiles
             cfs.Close();
             ofs.Close();
             CompressingBytes(_path, cfp);
-
-
         }
         private void decompressBtn_Click(object sender, EventArgs e)
         {  
@@ -65,7 +63,6 @@ namespace CompressFiles
             ds.Close();
             dfs.Close();
             cfs.Close();
-
         }
 
         private void CompressingBytes(string inital, string newpath)
